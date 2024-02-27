@@ -144,7 +144,7 @@ public class CardSwitch extends Card{
 			System.out.println("Yay 1");
 		}
 
-		if (card.toString().equals("(ACE,SPADES)")){
+		if ("(ACE,SPADES)".equals(card.toString())){
 			System.out.println("Yay 2");
 		}
 
